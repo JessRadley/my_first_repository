@@ -22,7 +22,7 @@ my_data<-
   mutate(INHdiv_fac=factor(INHdiv,labels=c("normal","subjective","upper","lower"))) 
 #create a data frame for a barplot
 #group by the new inhalation severity variable and the PFdivide 
-#("We also divided the patients into four groups depending on the PF ratio (>300, 200-300, 100-200, and <100)") 
+#("We also divided the patients into four groups depending on jklthe PF ratio (>300, 200-300, 100-200, and <100)") 
 #you will need the mean and sd of mortality (look out for spelling mistake) for each level of inhalation injury (INHdiv)
 #from this calculate the upper (ymax) and lower (ymin) bounds of the error bars (S.E.M.:mean +- sd/sqrt(n))
 plot_data<-
